@@ -1,0 +1,26 @@
+siomiz vpn changes needed
+
+
+files
+workflows
+copyables
+tests
+.dockerignore
+.travis.yml
+contributors - add me
+🚨 dockerfile
+🚨 dockerfile-armv7 - add ARM7 dockerfile
+- use alpine or debian file as base? check curlybraces setup steps for guide
+- update libncurses5, libncurses5-dev, libreadline8. in 2 places
+- update libseccomp2 if not already done?
+- update BUILD_VERSION url format? try without 32bit special, add if needed https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/archive/v4.38-9760-rtm.tar.gz
+- er-v4.38-9760-rtm-2021.08.17-linux-arm-32bit
+
+🚨 license - ? idk
+🚨 readme - add info on pi setup
+docker-compose.yml
+🚨 push-tags.sh - update BASE_TAGS
+vpn_server.config
+
+----------
+no matching manifest for linux/arm/v7 in the manifest list entries
